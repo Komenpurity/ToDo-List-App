@@ -7,8 +7,10 @@ export class FormComponent extends Component {
     
       this.state = {
         count: 0
+        // topic: "React"
       }
       this.handleCount = this.handleCount.bind(this) 
+      // this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     handleCount(){
@@ -17,15 +19,22 @@ export class FormComponent extends Component {
         })
     }
 
+    /* handleSubmit(event){
+        this.setState({
+            topic: event.target.value
+        })
+    } */
+
+
 
   render() {
     return (
       <div className="container">
-        <form>
+        <form >
           <label>New Todo</label>
           <input type="text" />
         </form>
-        <button>Submit</button>
+        <button >Submit</button>
 
         <button onClick = {this.handleCount}>Count ({this.state.count})</button>  
       </div>
