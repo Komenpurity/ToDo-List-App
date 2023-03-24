@@ -1,6 +1,5 @@
 import React from 'react'
 import FormComponent from './FormComponent'
-import ToDoList from './ToDoList'
 
 function Title(props) {
   return (
@@ -9,7 +8,6 @@ function Title(props) {
 
         <FormComponent />
 
-        <ToDoList />
 
     </div>
   )

@@ -16,3 +16,8 @@ code {
 button{
   margin: 10px;
 }
+
+.todolist{
+  align-items:center;
+  
+}
